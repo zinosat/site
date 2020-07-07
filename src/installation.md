@@ -35,13 +35,13 @@ make annepro2/c15
 # For C18 Revision
 make annepro2/c18
 ```
-This should compelte without any error. And you should be able to see a file named
+This should complete without any error. And you should be able to see a file named
 `annepro2_c15(18)_default.bin` in your directory.
 
 # Flashing the firmware
 0. Put the keyboard into DFU/IAP mode.
-0. Run anndpro2_tools with the firmware you just built.
-**Please subsitute with correct path**
+0. Run annepro2_tools with the firmware you just built.
+**Please substitute with correct path**
 ```bash
 annepro2_tools annepro2_c15_default.bin
 ```

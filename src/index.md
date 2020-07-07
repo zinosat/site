@@ -13,7 +13,7 @@ This is for the Anne Pro 2 keyboard, for the Anne Pro 1, please refer to the
 
 # Why Custom Firmware
 
-From my short and limited exprience with the original firmware provided by ObinsLab,
+From my short and limited experience with the original firmware provided by ObinsLab,
 I find it to be extremely buggy. One of the most significant problem being
 compatibility in BIOS. Aside from buggy, I would also like to switch the "Magic FN"
 from caps lock to other keys.
@@ -26,13 +26,13 @@ something arises you still have a second way to input keystrokes for long enough
 can either restore to the Obins firmware or find a solution).
 
 ## QMK
-[QMK](https://qmk.fm/) is a powerful open-source keyboard firmware that are being
-used by many open-source keyboards that are on the market today. Most famous for
-it's apparence in the Plunk, and ergodox-ez keyboards.
+[QMK](https://qmk.fm/) is a powerful open source keyboard firmware used by
+many open source keyboards that are on the market today. It is most famous
+for its appearance in the Plank and ErgoDox EZ keyboards.
 
-Currently we have a fully functional port of the QMK firmware for both the c15
-and c18 revision. (If you are unsure which one you have, read below)
-This includes key matrix function, which is the "most important" part of a keyboard
+Currently, we have a fully functional port of the QMK firmware for both the c15
+and c18 revision. (If you are unsure which one you have, read below.)
+This includes key matrix function, which is the "most important" part of a keyboard,
 I would say.
 
 ## AnnePro2-Shine
@@ -40,7 +40,7 @@ Shine is the custom firmware designed to run on the LED micro-controller of the
 keyboard to control lighting effects. In Obins' words, this is the Light processor.
 
 Currently this project is in its infancy, only very basic features has been tested.
-It can act as a decent indicator light (e.g. Caps Lock) using the RGB leds. But
+It can act as a decent indicator light (e.g. Caps Lock) using the RGB LEDs. But
 there is a lot of potential out there, as the firmware is only about 5KB in size
 right now, and the microcontroller can hold 64/128 KB of code for the c15/c18
 revision respectively.
