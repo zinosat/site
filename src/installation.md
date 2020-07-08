@@ -6,10 +6,14 @@ nav_order: 2
 ---
 
 # Install Instructions
-
 ** WARNING: these instructions are by no means complete, feel free to ask in the
 [Discord Server](https://discord.gg/ygssH9x) if you encounter any problems.
 As we are still in early test stages.**
+
+# Alternative Docker Build Script
+Checkout the docker build script provided by `@zinosat`.
+
+[Dockerfile]({% link install_docker.md %}){: .btn }
 
 # Get AnnePro2 Tools
 
@@ -50,6 +54,30 @@ in order to specify 0x8009 as the USB product ID. If this reports can't find dev
 please double check you have the keyboard in IAP mode. We have found out some version
 of the bootloader only show one interface, which require the use of `--loosy` argument
 to use the first interface found on the device with `0x04d9:8009` vid pid pair.
+
+# Anne Pro 2 Shine
+
+Building the shine firmware is very simailar to the QMK firmware.
+
+0. Checkout the repository using
+```bash
+git clone https://github.com/OpenAnnePro/annepro2-shine.git --recursive
+```
+
+0. Build using
+```bash
+# for C15
+make
+# for C18
+make MODEL=C18
+```
+
+0. If built without error you can find the binary in `build/` directory.
+You will flash the .bin file using annepro2 tools
+```bash
+annepro2_tools -t led path-to-the-bin-file.bin
+```
+*Note: all the extra argument about C18 revision still applies here*
 
 Once the tool has completed, you can simply replug the keyboard to activate the firmware.
 

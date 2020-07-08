@@ -25,6 +25,8 @@ to always have a backup keyboard if you are going to participate in the project.
 something arises you still have a second way to input keystrokes for long enough that you
 can either restore to the Obins firmware or find a solution).
 
+To see a list of To-Do items click [here]({% link contributing.md %})
+
 ## QMK
 [QMK](https://qmk.fm/) is a powerful open-source keyboard firmware that are being
 used by many open-source keyboards that are on the market today. Most famous for
