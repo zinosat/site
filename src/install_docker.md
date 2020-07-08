@@ -11,7 +11,7 @@ Save the following into a file named `Dockerfile`
 
 # docker build -t ap2 .
 #
-# docker run --privileged -h ap2 --rm -i -v ${PWD}:/host --user $(id -u) -w /home/dev ap2 bash
+# docker run --privileged -h ap2 --rm -it -v ${PWD}:/host --user $(id -u) -w /home/dev ap2 bash
 
 FROM debian:bullseye
 MAINTAINER Davide Viti <zinosat@gmail.com>
@@ -45,5 +45,5 @@ and run
 
 ```bash
 docker build -t ap2 .
-docker run --privileged -h ap2 --rm -i -v ${PWD}:/host --user $(id -u) -w /home/dev ap2 bash
+docker run --privileged -h ap2 --rm -it -v ${PWD}:/host --user $(id -u) -w /home/dev ap2 bash
 ```
