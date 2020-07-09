@@ -22,7 +22,7 @@ the bootloader.
 
 # Project URLs
 
-- [QMK Firmware Port](https://github.com/openannepro/qmk_firmware) The Open-soruce Keyboard Firmware
+- [QMK Firmware Port](https://github.com/openannepro/qmk_firmware) The open source Keyboard Firmware
 - [AnnePro2-Shine](https://github.com/OpenAnnePro/AnnePro2-Shine) Anne Pro 2 Custom LED Firmware
 - [AnnePro2-Tools](https://github.com/OpenAnnePro/AnnePro2-Tools) Anne Pro 2 Flashing Tool
 
@@ -30,7 +30,7 @@ the bootloader.
 
 Feel free to contact me with any question at codetector#codetector.cn
 
-Also I will be writing a blog series about reversing this keyboad, feel free to
+Also I will be writing a blog series about reversing this keyboard, feel free to
 check it out when it comes out. [Codetector's Blog](https://codetector.org)
 
 # Discord Server

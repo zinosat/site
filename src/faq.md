@@ -12,6 +12,6 @@ nav_order: 100
 firmware later?**
 
 Yes. We use the original Anne Pro 2's bootloader to load our firmware, so
-reverting is as easy as puting the keyboard into IAP mode and do an firmware
-update with ObinsKit. (Note: we have noticed ObinsKit might have trouble restoring
-when under macOS. But had great success with Windows.)
+reverting is as easy as putting the keyboard into IAP mode and do an firmware
+update with ObinsKit. (Note: We have noticed ObinsKit might have trouble restoring
+when under macOS, but have had great success with Windows.)
