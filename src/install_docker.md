@@ -35,6 +35,7 @@ RUN cd /home/dev; sudo -H -u dev git clone https://github.com/OpenAnnePro/AnnePr
 
 RUN cp /home/dev/AnnePro2-Tools/target/release/annepro2_tools /home/dev/
 RUN cp /home/dev/annepro-qmk/.build/annepro2_c18_default.bin /home/dev/
+RUN cp /home/dev/annepro-qmk/.build/annepro2_c18_codetector.bin /home/dev/
 RUN cp /home/dev/AnnePro2-Shine/build/annepro2-shine.bin /home/dev/
 
 ENV TZ /usr/share/zoneinfo/Europe/Rome
@@ -47,3 +48,6 @@ and run
 docker build -t ap2 .
 docker run --privileged -h ap2 --rm -it -v ${PWD}:/host --user $(id -u) -w /home/dev ap2 bash
 ```
+
+once inside the container, you can copy the binary files to your host,
+through the /host directory
